@@ -1,0 +1,32 @@
+input 100
+input 110 
+input 102  
+input 101 
+input 105 
+input 200 
+
+
+cmpr fac 100 110
+
+< fac 
+
+cmpr fac0 100 200
+
+= fac0 output 105 ; fac0
+< fac0 aboba ; fac0
+
+endcmpr fac0
+
+; fac
+
+= fac set 102 105
+output 102 ; fac
+
+> fac mul 105 100 105
+add 100 101 100
+backcmpr fac
+
+endcmpr fac
+
+exit
+

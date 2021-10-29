@@ -1,0 +1,20 @@
+input 111 
+input 112 
+input 208 
+input 109 
+input 108 
+
+cmpr GCD 111 112
+
+= GCD set 208 111
+output 208 ; GCD
+
+> GCD mul 112 109 108
+add 111 108 111 backcmpr GCD
+
+< GCD mul 111 109 108
+add 112 108 112 backcmpr GCD
+
+endcmpr GCD
+
+exit
